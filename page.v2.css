@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+
+
+{
+
+	display:none;
+}
+.is-version_1 .version_1,
+.is-version_2 .version_2,
+.is-version_3 .version_3,
+.is-version_4 .version_4,
+.is-version_5 .version_5,
+.is-version_6 .version_6,
+.is-version_7 .version_7,
+.is-version_8 .version_8,
+.is-version_9 .version_9,
+
+.is-version_10 .version_10
+{
+	display:block;
+}
+
+.alarm_btn{
+	display: block;
+	bottom:0;
+	background-image:url(img/alarm/alarm_btn_01.png);
+	width: 100%;
+	padding-top: 5.9%;
+}
+.alarm_btn:active{
+	background-image:url(img/alarm/alarm_btn_02.png);
+}
+/*newFunction.html*/
+.newFun{padding:30px 10px 0 10px;background:#f3f2ee;font-size: 1.4rem;}
+.newFun:last-child{padding-bottom:6rem;}
+.newFun:last-child .newFun_bd{border-bottom:none;}
+.newFun_bd{margin:1rem 0 0 0;border-bottom:1px dotted #c3c2c0;}
+.newFun_tit{margin:0 1rem;}
+.newFun img{width:100%;}
+.newFun .newFun_img1{padding:0 1rem 2rem 1rem;}
+.newFun .newFun_img2{padding-bottom:2rem;}
+.newFun .newFun_img3{margin-top:0.5rem;padding-bottom:2rem;}
+.newFun .newFun_img4{padding-bottom:2rem;}
+.newFun .newFun_img5{padding-bottom:2rem;}
+.newFun .newFun_img6{padding: 0 3rem 2rem 2rem;}
+.newFun .newFun_img7{margin-top:0;padding-bottom:2rem;}
+.newFun .newFun_img8{padding-bottom:2rem;}
+.newFun .newFun_img9{padding-bottom:2rem;}
+.newFun_img{ background-size:32rem; background-repeat:no-repeat; background-color:#fafcfd;}
+.newFun_img img{ width:100%;}
+.newFun .btn-more {
+	position:absolute;
+	top: 59%;
+	left: 45%;
+	width: 29%;
+	padding-top: 15%;
+	height: 0;
+}
+/* solution.html */
+.btn-link {
+	position:absolute;
+	top: 24%;
+	left: 0;
+	width: 100%;
+	padding-top: 8.6%;
+	height: 0;
+}
+/*ios和安卓 weixin.html*/
+.weixinIos{
+	height:0;
+	padding-top:100%;
+	background:url(img/weixin/weixin_ios.png?version=1.0) no-repeat;
+	background-size:100%;
+}
+/*录音帮助页*/
+.rec {
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+.rec-item {
+	padding: 0 10px;
+	font-size: 13px;
+	color: #999;
+	overflow: hidden;
+}
+.rec-item.open .rec-item-tit {
+	background-position: right -8px;
+}
+.rec-item-tit {
+	display: block;
+	font-size: 16px;
+	color: #333;
+	line-height: 60px;
+	border-bottom: 1px solid #eee;
+	background: url('img/record/arrow.png') no-repeat right 27px;
+	background-size: 11px;
+}
+.rec-item-cont {
+	display: none;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+.open .rec-item-cont{
+	display: block
+}
+.rec-item-cont img {
+	width: 100%;
+	margin-bottom: 30px;
+	box-shadow: 0 0 5px 1px #e8e8e8;
+}
+.rec-item-cont.last {
+	border-bottom: none;
+}
+
+/* 帮助中心 */
+.p-help .tit{
+	padding: 1rem;
+	line-height: 2rem;
+	color: #666;
+}
+.p-help .icon{
+	vertical-align: 0;
+}
+.question-list .item {
+	line-height: 4rem;
+	display: block;
+	padding: 0 1rem;
+	background-color: #fff;
+	white-space: nowrap;
+	margin: 1rem 0 0 0;
+	font-weight:bold;
+}
+.help-cont {
+	display: none;
+	padding: 1rem;
+	font-size: 1.3rem;
+	position: relative;top:0.6rem;
+}
+.open .icon-arrow3 {
+	background-position: 0 -1.5rem;
+}
+.open .help-cont {
+	display: block;
+}
+.p-help .other {
+	display: none;
+	margin: 4rem 0;
+	font-size: 1.2rem;
+	color: #999;
+	text-align: center;
+}
