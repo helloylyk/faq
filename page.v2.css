@@ -125,10 +125,11 @@
 	line-height: 4rem;
 	display: block;
 	padding: 0 1rem;
-	background-color: #fff;
+	background-color: #fff\n;
 	white-space: nowrap;
 	margin: 1rem 0 0 0;
 	font-weight:bold;
+	font-size: 1.5rem;
 }
 .help-cont {
 	display: none;
